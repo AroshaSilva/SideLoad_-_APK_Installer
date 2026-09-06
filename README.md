@@ -1,3 +1,9 @@
+## SideLoader - APK Installer for Android
+A lightweight Windows desktop utility for installing Android APK files directly to your Android device via ADB (Android Debug Bridge).
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses. 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Below you may find 1. Installation guidelines , 2. Features, and 3. Disclaimers.
 
 1. 
 ## 📱 ADB Installation Instructions
@@ -53,3 +59,63 @@ ________________________________________________________________________________
 5. " Additional "
    - This application is included with several safety features. If you do not know about them, leave them as it is. If you encounter any errors, please report/mention the issue in this repo discussion.
    - Currently, I found no issues with any functions.
+
+## ✨ Features
+🚀 Core Functionality
+One-Click APK Installation - Select any APK file and install it to your Android device with a single click
+
+Automatic Device Detection - Automatically detects connected Android devices via USB
+
+Real-Time Status Updates - Visual feedback for every action and process
+
+Secure Copy - Creates temporary secure copies of APK files during installation for safety
+
+Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.)
+
+🔒 Security Features
+Debugger Detection - Protects against reverse engineering attempts
+
+Integrity Verification - Ensures the application hasn't been tampered with
+
+APK Validation - Validates APK files before installation to prevent corruption
+
+Command Sanitization - Prevents command injection attacks
+
+Suspicious Location Warning - Alerts if running from temporary or downloads folder
+
+Secure Copy - Uses temporary secure copies to protect your system
+
+Configurable Security - All security features can be toggled on/off in settings
+
+📋 Additional Features
+Settings Management - Customize security preferences and application behavior
+
+Logging - Optional logging for troubleshooting
+
+Admin Privilege Check - Automatically requests administrator privileges when needed
+
+## ⚠️ DISCLAIMER
+
+This software is provided "AS IS" without any warranties.
+
+🔒 **Risks:**
+- Using ADB with Android devices may void warranties
+- Improper usage may damage your device
+- Data loss is possible if improperly used
+- Some devices may behave differently
+
+✅ **Safety Practices:**
+- Always backup your device before installation
+- Only download APKs from trusted sources
+- Enable USB Debugging only when needed
+- Disconnect USB when not in use
+
+**By using this software, you agree that:**
+- The developer is not liable for any damages
+- You are responsible for your device
+- You have read and understood these terms
+
+##Thank You!
+
+Developer : GamerLaza_ (Gamertag)
+GitHub: https://github.com/AroshaSilva
