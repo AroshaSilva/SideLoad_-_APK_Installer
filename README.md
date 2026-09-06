@@ -24,7 +24,7 @@ NOTE: Extracting files to this location ensures that this app won't access any p
 
 **Manual installation ensure latest Platform tool packages/ADB drivers will be installed and reduces security concerns like false accusations to me or other HOST-privacy concerns. Without Platform tools, this app does not have any purpose.**
 
-3. **Run APK Installer**
+3. **Run APK Installer** > Click yes in admin privilege request. This ensure that program does not have any restriction to access platform-tools files.
    - Launch the application
    - It will automatically detect ADB at `C:\platform-tools`
 **Some times, application may display 'ADB not installed' once started, but neglect the warning-massage box and click 'Refresh' button.
