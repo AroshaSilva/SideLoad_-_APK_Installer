@@ -1,15 +1,16 @@
-## SideLoader - APK Installer for Android
+# SideLoader - APK Installer for Android
 A lightweight Windows desktop utility for installing Android APK files directly to your Android device via ADB (Android Debug Bridge).
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses. 
+[!NOTE]
+Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Below you may find 1. Installation guidelines , 2. Features, and 3. Disclaimers.
-
-1. 
-## 📱 ADB Installation Instructions
+ 
+## 1.📱 ADB Installation Instructions
 
 This application requires ' platform-tools ' packages to be installed/located in your C:\ (primary disk), follow the guidelines below this line;
 ### Step-by-Step Installation:
+
 1. **Download Android SDK Platform Tools**
    - Visit: https://developer.android.com/studio/releases/platform-tools  (for windows)
    - Download the ZIP file
