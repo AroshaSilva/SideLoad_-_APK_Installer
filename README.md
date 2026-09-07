@@ -52,7 +52,7 @@ ________________________________________________________________________________
    - Enable 'Install via USB '  feature too to make the process smoother.
 **Please remember to disable them back as well as developer options/settings once you installed your application. Do not leave them enabled. Your device may expose to risk as well as apps like banking apps will stop working until DEV settings/options is disabled.**
      
-4. **Installing an APK** -> *Now go back to the ' SideLoad - APK_Installer ' app.*
+5. **Installing an APK** -> *Now go back to the ' SideLoad - APK_Installer ' app.*
    - Click refresh devices button. Your device must be listed.
    **If not listed, please ensure you have extracted platform-tools in the correct location.
    - If your device get listed, now click ' Select APK ' and search and locate the APK in your PC you wish to install.
@@ -63,7 +63,7 @@ ________________________________________________________________________________
    - Currently, I found no functional issue(s) with any functions.
 
 ## 2.✨ Features
-### Core Functionality 🚀
+### 2.1. Core Functionality 🚀
 One-Click APK Installation - Select any APK file and install it to your Android device with a single click.
 
 Real-Time Status Updates - Visual feedback for every action and process.
@@ -72,7 +72,7 @@ Secure Copy - Creates temporary secure copies of APK files during installation f
 
 Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.).
 
-### Security Features 🔒
+### 2.2. Security Features 🔒
 Debugger Detection - Protects against reverse engineering attempts.
 
 Integrity Verification - Ensures the application hasn't been tampered with.
@@ -89,7 +89,7 @@ Configurable Security - All security features can be toggled on/off in settings.
 
 *All Security features were added using AI technologies* (I am new to computer security technologies 😑)
 
-## 📋 Additional Features
+## Additional Features 📋
 Settings Management - Customize security preferences and application behavior
 
 Logging - Optional logging for troubleshooting
@@ -100,20 +100,21 @@ Admin Privilege Check - Automatically requests administrator privileges when nee
 
 This software is provided "AS IS" without any warranties.
 
-### **Risks:** 🔒
+### 3.1. **Risks:** 🔒
 - Using ADB with Android devices may void warranties
 - Improper usage may damage your device as well as increase risk of data loss.
-  ~Example: 1. Downloading this program from other websites which may have been modified and contain malicious codes will put your personal data at a risk.
+  ~Example:
+  1. Downloading this program from other websites which may have been modified and contain malicious codes will put your personal data at a risk.
   2. Installing unknown/unsafe/potential-malicious/moded APK application to your device.
 - Some devices may behave differently
 
-### **Safety Practices:** ✅
+### 3.2. **Safety Practices:** ✅
 - Always backup your device before installation *(usually no need unless your are installing unsafe/unsure/system-modifying APKs.)*
 - Only download APKs from trusted sources or 
 - Enable USB Debugging only when needed
 - Disconnect USB when not in use
 
-**By using this software, you agree that:**
+**3.3. By using this software, you agree that:**
 - The developer is not liable for any damages.
 - You are responsible for your device (I have given warnings as much as possible here as well as in 'info' page @app).
 - You have read and understood these terms.
