@@ -70,6 +70,8 @@ Real-Time Status Updates - Visual feedback for every action and process.
 
 Secure Copy - Creates temporary secure copies of APK files during installation for safety.
 
+Auto ADB enabled device identification - Enable/Disable this feature in settings.
+
 Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.).
 
 ### 2.2. Security Features 🔒
