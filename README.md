@@ -2,9 +2,10 @@
 A lightweight Windows desktop utility for installing Android APK files directly to your Android device via ADB (Android Debug Bridge).
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 [!NOTE]
-Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses.
+[Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses.]
+
+[**Below you may find 1. Installation guidelines, 2. Features, and 3. Disclaimers.**]
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Below you may find 1. Installation guidelines , 2. Features, and 3. Disclaimers.
  
 ## 1.📱 ADB Installation Instructions
 
@@ -18,7 +19,7 @@ This application requires ' platform-tools ' packages to be installed/located in
 2. **Extract the Files**
    - Create a folder named ' platform-tools ' or Extract the zip file to your C:\ (primary disk), but ensure that all the extracted files must be within a folder named 'platform-tools'.
 
-*This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to (3.1) in this page. This app originally will not access any other system or personal files other than files in ' C:\platform-tools ' folder.*
+*This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to (3.1)[^1] in this page. This app originally will not access any other system or personal files other than files in ' C:\platform-tools ' folder.*
 
 NOTE: Extracting files to this location ensures that this app won't access any personal or system files.
 
@@ -31,13 +32,13 @@ NOTE: Extracting files to this location ensures that this app won't access any p
    - It will automatically detect ADB at `C:\platform-tools`
 **Some times, application may display 'ADB not installed' once started, but neglect the warning-massage box and click 'Refresh' button.
 
-**(3.1) ### Alternative Locations (if C:\platform-tools doesn't work):*
+**[^1]:(3.1) ### Alternative Locations (if C:\platform-tools doesn't work):*
 *The app will also check these locations:*
 *- `C:\adb\adb.exe`*
 *- `C:\Android\platform-tools\adb.exe`*
-
 _________________________________________________________________________________
-To Verify whether platform tools are Installation
+[!TIP]
+[To Verify whether platform tools are Installation]
    - Open Command Prompt
    - Type: `C:\platform-tools\adb.exe version`
    - You should see the ADB version information
@@ -63,7 +64,7 @@ ________________________________________________________________________________
    - Currently, I found no functional issue(s) with any functions.
 
 ## ✨ Features
-🚀 Core Functionality
+###🚀 Core Functionality
 One-Click APK Installation - Select any APK file and install it to your Android device with a single click.
 
 Real-Time Status Updates - Visual feedback for every action and process.
@@ -72,7 +73,7 @@ Secure Copy - Creates temporary secure copies of APK files during installation f
 
 Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.).
 
-🔒 Security Features
+###🔒 Security Features
 Debugger Detection - Protects against reverse engineering attempts.
 
 Integrity Verification - Ensures the application hasn't been tampered with.
@@ -100,14 +101,14 @@ Admin Privilege Check - Automatically requests administrator privileges when nee
 
 This software is provided "AS IS" without any warranties.
 
-🔒 **Risks:**
+###🔒 **Risks:**
 - Using ADB with Android devices may void warranties
 - Improper usage may damage your device as well as increase risk of data loss.
   ~Example: 1. Downloading this program from other websites which may have been modified and contain malicious codes will put your personal data at a risk.
   2. Installing unknown/unsafe/potential-malicious/moded APK application to your device.
 - Some devices may behave differently
 
-✅ **Safety Practices:**
+###✅ **Safety Practices:**
 - Always backup your device before installation *(usually no need unless your are installing unsafe/unsure/system-modifying APKs.)*
 - Only download APKs from trusted sources or 
 - Enable USB Debugging only when needed
