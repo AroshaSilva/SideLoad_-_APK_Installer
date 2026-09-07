@@ -32,7 +32,7 @@ NOTE: Extracting files to this location ensures that this app won't access any p
    - It will automatically detect ADB at `C:\platform-tools`
 **Some times, application may display 'ADB not installed' once started, but neglect the warning-massage box and click 'Refresh' button.
 
-[^1]:(3.1) ### Alternative Locations (if C:\platform-tools doesn't work):
+[^1](3.1) ### Alternative Locations (if C:\platform-tools doesn't work):
 The app will also check these locations:
  - `C:\adb\adb.exe`*
  - `C:\Android\platform-tools\adb.exe`*
