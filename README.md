@@ -16,23 +16,24 @@ This application requires ' platform-tools ' packages to be installed/located in
 
 2. **Extract the Files**
    - Create a folder named ' platform-tools ' or Extract the zip file to your C:\ (primary disk), but ensure that all the extracted files must be within a folder named 'platform-tools'.
-//This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to (3.1) in this page. This app originally will not access any other system or personal files other than files in ' C:\platform-tools 'folder.
+
+*This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to (3.1) in this page. This app originally will not access any other system or personal files other than files in ' C:\platform-tools ' folder.*
 
 NOTE: Extracting files to this location ensures that this app won't access any personal or system files.
 
    - You should have: `C:\platform-tools\adb.exe`
 
-**Manual installation ensure latest Platform tool packages/ADB drivers will be installed and reduces security concerns like false accusations to me or other HOST-privacy concerns. Without Platform tools, this app does not have any purpose.**
+**I did not ship the software together with platform-tools in order to be protected from license and copyright issues. However still, Manual installation ensure latest Platform tool packages/ADB drivers installed for usage and reduces security concerns like false accusations to me or other HOST-privacy concerns. Without Platform tools, this app does not have any purpose.**
 
-3. **Run APK Installer** > Click yes in admin privilege request. This ensure that program does not have any restriction to access platform-tools files.
+3. **Run APK Installer** -> *Click yes in admin privilege request. This ensure that program will run smoothly without any restrictions to access platform-tools files.*
    - Launch the application
    - It will automatically detect ADB at `C:\platform-tools`
 **Some times, application may display 'ADB not installed' once started, but neglect the warning-massage box and click 'Refresh' button.
 
-(3.1) ### Alternative Locations (if C:\platform-tools doesn't work):
-The app will also check these locations:
-- `C:\adb\adb.exe`
-- `C:\Android\platform-tools\adb.exe`
+**(3.1) ### Alternative Locations (if C:\platform-tools doesn't work):*
+*The app will also check these locations:*
+*- `C:\adb\adb.exe`*
+*- `C:\Android\platform-tools\adb.exe`*
 
 _________________________________________________________________________________
 To Verify whether platform tools are Installation
@@ -41,53 +42,53 @@ To Verify whether platform tools are Installation
    - You should see the ADB version information
 _________________________________________________________________________________
 
-4. In order to install any app, ADB feature must be enabled in your device.
+4. **Enable ADB in your Android device** - > *In order to install any app, ADB feature must be enabled in your device.*
    - Open your android device's settings
-   - Got to about page (may differ among brands)
-   - Click OS version of your device 3-4 times until you see ' Developer settings are now enabled ' or similar.
-   - Go back and look for developer settings/options (or search it in settings). Different manufacturers locate it under different settings pages.
-   - In developer options/settings, scroll down until you find, USB debugging. Enable it, if any warning are given, accept it.
+   - Got to about page (may differ amoung brands)
+   - Click OS version of your device 3-4 times until you see ' Developer settings are now enabled ' or similar massage.
+   - In settings, look or search for developer settings/options. *Different manufacturers locate it under different names and settings pages.*
+   - In developer options/settings, scroll down until you find, USB debugging. Enable it, if any warning(s) are given, accept it.
    - Enable 'Install via USB '  feature too to make the process smoother.
-     **Please remember to disable these as well as developer options/settings once you installed your application. Do not leave them unabled. Your device may expose to risk as well as some apps like banking apps will stop working until DEV settings/options is disabled.
+**Please remember to disable them back as well as developer options/settings once you installed your application. Do not leave them enabled. Your device may expose to risk as well as apps like banking apps will stop working until DEV settings/options is disabled.**
      
-4. Now go back to the ' SideLoad - APK_Installer ' app.
+4. **Installing an APK** -> *Now go back to the ' SideLoad - APK_Installer ' app.*
    - Click refresh devices button. Your device must be listed.
    **If not listed, please ensure you have extracted platform-tools in the correct location.
-   - If the app listed your device, now click ' Select APK ' and search and locate the APK in your PC you wish to install.
+   - If your device get listed, now click ' Select APK ' and search and locate the APK in your PC you wish to install.
    - Once everything is done, finally click ' Install APK ' .
-  
-5. " Additional "
+
+   **NOTE:**
    - This application is included with several safety features. If you do not know about them, leave them as it is. If you encounter any errors, please report/mention the issue in this repo discussion.
-   - Currently, I found no issues with any functions.
+   - Currently, I found no functional issue(s) with any functions.
 
 ## ✨ Features
 🚀 Core Functionality
-One-Click APK Installation - Select any APK file and install it to your Android device with a single click
+One-Click APK Installation - Select any APK file and install it to your Android device with a single click.
 
-Automatic Device Detection - Automatically detects connected Android devices via USB
+Real-Time Status Updates - Visual feedback for every action and process.
 
-Real-Time Status Updates - Visual feedback for every action and process
+Secure Copy - Creates temporary secure copies of APK files during installation for safety.
 
-Secure Copy - Creates temporary secure copies of APK files during installation for safety
-
-Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.)
+Comprehensive Error Handling - Clear error messages for common issues (unauthorized devices, insufficient storage, etc.).
 
 🔒 Security Features
-Debugger Detection - Protects against reverse engineering attempts
+Debugger Detection - Protects against reverse engineering attempts.
 
-Integrity Verification - Ensures the application hasn't been tampered with
+Integrity Verification - Ensures the application hasn't been tampered with.
 
-APK Validation - Validates APK files before installation to prevent corruption
+APK Validation - Validates APK files before installation to prevent corruption.
 
-Command Sanitization - Prevents command injection attacks
+Command Sanitization - Prevents command injection attacks.
 
-Suspicious Location Warning - Alerts if running from temporary or downloads folder
+Suspicious Location Warning - Alerts if running from temporary or downloads folder.
 
-Secure Copy - Uses temporary secure copies to protect your system
+Secure Copy - Uses temporary secure copies to protect your system.
 
-Configurable Security - All security features can be toggled on/off in settings
+Configurable Security - All security features can be toggled on/off in settings.
 
-📋 Additional Features
+*All Security features were added using AI technologies* (I am new to computer security technologies 😑)
+
+## 📋 Additional Features
 Settings Management - Customize security preferences and application behavior
 
 Logging - Optional logging for troubleshooting
@@ -100,22 +101,23 @@ This software is provided "AS IS" without any warranties.
 
 🔒 **Risks:**
 - Using ADB with Android devices may void warranties
-- Improper usage may damage your device
-- Data loss is possible if improperly used
+- Improper usage may damage your device as well as increase risk of data loss.
+  ~Example: 1. Downloading this program from other websites which may have been modified and contain malicious codes will put your personal data at a risk.
+  2. Installing unknown/unsafe/potential-malicious/moded APK application to your device.
 - Some devices may behave differently
 
 ✅ **Safety Practices:**
-- Always backup your device before installation
-- Only download APKs from trusted sources
+- Always backup your device before installation *(usually no need unless your are installing unsafe/unsure/system-modifying APKs.)*
+- Only download APKs from trusted sources or 
 - Enable USB Debugging only when needed
 - Disconnect USB when not in use
 
 **By using this software, you agree that:**
-- The developer is not liable for any damages
-- You are responsible for your device
-- You have read and understood these terms
+- The developer is not liable for any damages.
+- You are responsible for your device (I have given warnings as much as possible here as well as in 'info' page @app).
+- You have read and understood these terms.
 
 ##Thank You!
 
-Developer : GamerLaza_ (Gamertag)
+Developer : GamerLaza_ (Gamertag) / K.C Arosha Silva (name)
 GitHub: https://github.com/AroshaSilva
