@@ -1,8 +1,8 @@
 # SideLoader - APK Installer for Android
 A lightweight Windows desktop utility for installing Android APK files directly to your Android device via ADB (Android Debug Bridge).
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-[!NOTE]
-Please note that this is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses.
+>[!NOTE] 
+>This is just an application created to enhance my C# knowledge and MVS experience. Please note that if you found/downloaded this software elsewhere other than my personal website > (my portfolio ~ Gdrive, social media, LinkedIn and in GitHub), software might contain viruses or modified to contain backdoors which might put your device at risk. I am not responsible for any damages like virus attack or privacy issues caused to you as this software does not originally have any backdoors, or any sort of viruses.  
 
 **Below you may find 1. Installation guidelines, 2. Features, and 3. Disclaimers.**
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -19,7 +19,7 @@ This application requires ' platform-tools ' packages to be installed/located in
 2. **Extract the Files**
    - Create a folder named ' platform-tools ' or Extract the zip file to your C:\ (primary disk), but ensure that all the extracted files must be within a folder named 'platform-tools'.
 
-*This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to (3.1)[^1] in this page. This app originally will not access any other system or personal files other than files in ' C:\platform-tools ' folder.*
+*This location is non-negotiable as this software application will only look for the platform-tool folder located among the folders in your C:\ disk or refer to[^1]. This app originally will not access any other system or personal files other than files in ' C:\platform-tools ' folder.*
 
 NOTE: Extracting files to this location ensures that this app won't access any personal or system files.
 
@@ -32,10 +32,10 @@ NOTE: Extracting files to this location ensures that this app won't access any p
    - It will automatically detect ADB at `C:\platform-tools`
 **Some times, application may display 'ADB not installed' once started, but neglect the warning-massage box and click 'Refresh' button.
 
-[^1](3.1) ### Alternative Locations (if C:\platform-tools doesn't work):
-The app will also check these locations:
- - `C:\adb\adb.exe`*
- - `C:\Android\platform-tools\adb.exe`*
+[^1]: ### Alternative Locations (if C:\platform-tools doesn't work):  
+:The app will also check these locations:  
+ :- `C:\adb\adb.exe`*  
+ :- `C:\Android\platform-tools\adb.exe`*  
 _________________________________________________________________________________
 To Verify whether platform tools are Installation
    - Open Command Prompt
@@ -62,7 +62,7 @@ ________________________________________________________________________________
    - This application is included with several safety features. If you do not know about them, leave them as it is. If you encounter any errors, please report/mention the issue in this repo discussion.
    - Currently, I found no functional issue(s) with any functions.
 
-## ✨ Features
+## 2.✨ Features
 ### Core Functionality 🚀
 One-Click APK Installation - Select any APK file and install it to your Android device with a single click.
 
@@ -96,7 +96,7 @@ Logging - Optional logging for troubleshooting
 
 Admin Privilege Check - Automatically requests administrator privileges when needed
 
-## ⚠️ DISCLAIMER
+## 3.⚠️ DISCLAIMER
 
 This software is provided "AS IS" without any warranties.
 
@@ -120,4 +120,6 @@ This software is provided "AS IS" without any warranties.
 
 ##Thank You!
 
-Developer : GamerLaza_ (Gamertag) / K.C Arosha Silva (name)
+Developer : GamerLaza_ (Gamertag) / K.C Arosha Silva (name) </br>
+[Portfolio](https://sites.google.com/view/arosha-silva/home)
+[LinkedIN](https://lk.linkedin.com/in/arosha-silva-5673b51b7)
